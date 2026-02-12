@@ -56,7 +56,13 @@ const Cart = () => {
             </div>
           </div>
             <button>PROCEED TO CHECKOUT</button>
-
+        </div>
+        <div className="card-promo-code">
+          <p>If you have the Promocode Enter Here</p>
+          <div className="card-promo-input">
+            <input type="text" placeholder="promo code" />
+            <button>Submit</button>
+          </div>
         </div>
       </div>
     </div>
@@ -64,5 +70,4 @@ const Cart = () => {
 };
 
 export default Cart;``
-
-//2.53
+//2.56
